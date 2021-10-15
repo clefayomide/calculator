@@ -31,6 +31,7 @@ const CalculatorCard = () => {
       return;
     }
     setCalc(eval(calc).toString());
+    setOutput(eval(calc).toString())
   };
 
   const handleDelete = () => {
